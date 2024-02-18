@@ -24,29 +24,29 @@ Quote Generator is a simple web application designed to generate random quotes. 
 
 ## Additional: Dark Mode / Light Mode Switch
 
-# Overview
+### Overview
 This application features a convenient Dark Mode/Light Mode switch for enhanced user experience customization. Users can seamlessly toggle between Dark and Light modes to suit their preferences and reduce eye strain in different lighting conditions.
 
-# Key Features
+### Key Features
 1 - Dark Mode: Optimal for low-light environments, Dark Mode reduces the screen's brightness and adjusts the color scheme to darker tones, providing a visually comfortable experience.
 2 - Light Mode: In well-lit environments or for users who prefer traditional interfaces, Light Mode offers a bright and clear display with a lighter color palette.
 
-# Usage
+### Usage
 1 - Toggle Button: A prominent toggle button located within the application interface allows users to switch between Dark and Light modes effortlessly.
 2 - Persistent Setting: The selected mode preference is often saved across sessions, ensuring that users enjoy their preferred mode each time they access the application.
 
-# Benefits
+### Benefits
 1 - Enhanced User Comfort: Users can choose a mode that best suits their visual preferences and environmental conditions, promoting a more comfortable and enjoyable user experience.
 2 - Reduced Eye Strain: Dark Mode reduces the amount of light emitted by the screen, which can help alleviate eye strain during prolonged usage, especially in low-light settings.
 3 - Aesthetic Customization: The ability to switch between Dark and Light modes adds a layer of aesthetic customization, allowing users to personalize their interaction with the application.
 
-# Implementation
+### Implementation
 Cross-Platform Support: Dark Mode/Light Mode functionality is supported across various platforms and devices, ensuring a consistent user experience regardless of the user's device or operating system.
 
-# Integration
+### Integration
 GitHub README.md: Developers can easily integrate this feature into their projects by following the provided implementation guidelines and customizing the interface to align with their application's design principles.
 
-# Conclusion
+### Conclusion
 The Dark Mode/Light Mode switch enhances accessibility and user satisfaction by offering a flexible and visually appealing interface tailored to individual preferences. By prioritizing user comfort and customization, this feature enriches the overall user experience and contributes to the application's usability and accessibility.
 
 ## Technologies and Languages
