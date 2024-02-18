@@ -3,7 +3,7 @@
 # Quote Generator
 
 ![Quote Generator Preview](screenshot.png)
-You can check it out [here](https://D-vokic.github.io).
+You can check it out [here](https://d-vokic.github.io/Quotations-Generator-App/).
 
 ## Author
 
