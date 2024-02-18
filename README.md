@@ -9,7 +9,7 @@ You can check it out [here](https://d-vokic.github.io/Quotations-Generator-App/)
 
 👤 **Duško Vokić**
 
-* LinkedIn: [@duško-vokić](www.linkedin.com/in/duško-vokić-0337a2106)
+* LinkedIn: [Here](www.linkedin.com/in/duško-vokić-0337a2106)
 * GitHub: [@D-vokic](https://github.com/D-vokic)
 
 Quote Generator is a simple web application designed to generate random quotes. It allows users to press a button and get a new quote they can share or like on social media.
