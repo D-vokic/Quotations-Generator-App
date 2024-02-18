@@ -18,7 +18,7 @@ Quote Generator is a simple web application designed to generate random quotes. 
 
 1. Visit the Quote Generator website.
 2. Click on the "Generate Quote" button to generate a new quote.
-3. Use the "Share" option to share the quote on social media.
+3. Use the "Like" option to like or share the quote on social media.
 
 ## Technologies and Languages
 
