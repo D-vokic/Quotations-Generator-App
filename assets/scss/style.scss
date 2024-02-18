@@ -1,0 +1,11 @@
+/*----------------------------------------
+PARTIALS
+----------------------------------------*/
+@use 'partials/default';
+@use 'partials/darkMode';
+@use 'partials/loader';
+@use 'partials/logoPicture';
+@use 'partials/quote';
+@use 'partials/footer';
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");

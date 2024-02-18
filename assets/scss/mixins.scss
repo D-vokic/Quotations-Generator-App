@@ -1,0 +1,13 @@
+@use "variables" as *;
+
+@mixin flex($justify: center, $align: center, $gap: 0px) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+@mixin trans($scale: scale(1.1), $ease: 1s ease) {
+    transform: $scale;
+    transition: $ease;
+}

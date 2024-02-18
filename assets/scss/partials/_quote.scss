@@ -1,0 +1,172 @@
+@use "../components/" as *;
+
+// QUOTE    
+.quote-container {
+    width: auto;
+    max-width: 900px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    margin-bottom: 10rem;
+
+    @media screen and (max-width: 1000px) {
+        .quote-container {
+            margin: auto 10px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        margin-top: 10rem;
+        margin-bottom: 12rem;
+    }
+
+    .quote-text {
+        font-size: 2.75rem;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        animation: fadeIn 3s ease;
+
+        @media screen and (max-width: 1000px) {
+            font-size: 2.5rem;
+        }
+
+        @media screen and (max-width: 576px) {
+            font-size: 1.5rem;
+        }
+
+        @media screen and (max-width: 400px) {
+            font-size: 1rem;
+        }
+
+        .fa-quote-left {
+            font-size: 4rem;
+        }
+    }
+
+    .quote-author {
+        font-size: 2rem;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-style: italic;
+
+        @media screen and (max-width: 576px) {
+            font-size: 1rem;
+        }
+    }
+
+    .long-quote {
+        font-size: 1.5rem;
+    }
+
+    .button-container {
+        @include flex(space-between);
+        margin-top: 15px;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        @media screen and (max-width: 400px) {
+            flex-direction: row;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            height: 2.5rem;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            background-color: #333;
+            color: $secondaryColor;
+            outline: none;
+            padding: 0.5rem 1.8rem;
+            box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+            @include trans;
+
+            @media screen and (max-width: 768px) {
+                width: 80%;
+                margin: auto;
+            }
+
+            @media screen and (max-width: 400px) {
+                padding: 0;
+                margin-right: 1rem;
+            }
+
+            &:hover {
+                filter: brightness(110%);
+                color: #38a1f3;
+                background-color: $secondaryColor;
+            }
+
+            &:active {
+                transform: translateY(0.1rem);
+                box-shadow: none;
+            }
+        }
+
+        .twitter-buton {
+            &:hover {
+                color: #38a1f3;
+                background-color: $secondaryColor;
+
+                @media screen and (max-width: 400px) {
+                    font-size: 0.9rem;
+                }
+
+                .fa-twitter {
+                    font-size: 1.5rem;
+
+                    @media screen and (max-width: 400px) {
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+
+            .facebook-button {
+                &:hover {
+                    color: #4267b2;
+
+                    background-color: $secondaryColor;
+
+                    @media screen and (max-width: 400px) {
+                        font-size: 0.9rem;
+                    }
+                }
+
+                & i {
+                    font-size: 1.5rem;
+                }
+
+                .fa-facebook {
+                    font-size: 1rem;
+                    background: #3b5998;
+                    color: #f3f3f3;
+                    margin-right: 10px;
+
+                    &:hover {
+                        color: #3b5998;
+                        background: $primaryColor;
+                    }
+                }
+            }
+
+            .new-quote {
+                animation: fadeIn 3s ease;
+
+                &:hover {
+                    color: #3b5998;
+                    background: $primaryColor;
+                }
+
+                @media screen and (max-width: 400px) {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}

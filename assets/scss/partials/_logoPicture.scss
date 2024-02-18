@@ -1,0 +1,43 @@
+@use "../components/" as *;
+
+//   LOGO SLIKA I EFEkTI
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    animation: fadeIn 3s ease;
+    cursor: pointer;
+
+    & img {
+        position: relative;
+        display: inline-block;
+        transition: 1s ease;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        transition: 1s ease;
+        cursor: pointer;
+    }
+
+    .logo-text-overlay {
+        position: absolute;
+        top: 0;
+        left: 40px;
+        width: 200px;
+        background-color: rgba(255, 255, 0, 0.3);
+        color: $primaryColor;
+        padding: 10px;
+        opacity: 0;
+        transition: 1s ease;
+        font-style: italic;
+        font-size: 1rem;
+    }
+
+    &:hover .logo-text-overlay {
+        opacity: 1;
+        @include trans(scale(1.5));
+    }
+}
