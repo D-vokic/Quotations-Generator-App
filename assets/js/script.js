@@ -7,15 +7,33 @@ const newQuoteBtn = document.getElementById("new-quote");
 const darkModeBtn = document.getElementById("drk-mode");
 const loader = document.getElementById("loader");
 
-// Dodavanje animacije na quote text kada se klikne na New Quote dugme
+// Adding animation to the quote text when the New Quote button is clicked
 document.getElementById("new-quote").addEventListener("click", function () {
-  const quoteText = document.getElementById("quote-text");
-  quoteText.style.animation = "fadeIn 3s ease";
+  const quoteText = document.getElementById("quote");
+  quoteText.style.animation = "fadeIn 5s ease";
 
-  // Ovo će resetovati animaciju nakon završetka
+  // This will reset the animation after it finishes
   quoteText.addEventListener("animationend", function () {
-    quoteText.style.animation = ""; // Resetovanje animacije
+    quoteText.style.animation = ""; // Resetting the animation
   });
+});
+
+// Adding animation to the dark mode button when it is clicked
+document.getElementById("drk-mode").addEventListener("click", function () {
+  const modeDark = document.getElementById("drk-mode");
+  modeDark.style.animation = "fadeIn 5s ease";
+  modeDark.style.border = "2px solid red";
+  
+  // This will reset the animation upon completion
+  modeDark.addEventListener("animationend", function () {
+    modeDark.style.animation = ""; // Resetting the animation
+  });
+});
+
+// Adding animation to the dark mode button when the page loads
+addEventListener("load", function () {
+  const modeDark = document.getElementById("drk-mode");
+  modeDark.style.animation = "fadeIn 5s ease";
 });
 
 // Function to show loading spinner and hide quote container
